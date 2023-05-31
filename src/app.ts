@@ -1,17 +1,16 @@
-import express, { Request, Response } from "express";
-import cors from "cors";
-const app = express();
+import express, { Request, Response } from 'express'
+import cors from 'cors'
+const app = express()
 
-app.use(cors());
+app.use(cors())
 
 //parser
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
 
 // testing
-app.get("/", (req: Request, res: Response) => {
-	res.send("Working succcessfully");
-});
+app.get('/', (req: Request, res: Response) => {
+  res.send('Working succcessfully')
+})
 
-export default app;
-
+export default app
