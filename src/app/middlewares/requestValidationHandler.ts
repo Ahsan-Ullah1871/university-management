@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-expressions */
 
 import { Request, Response, NextFunction } from 'express'
-import { AnyZodObject } from 'zod'
+import { AnyZodObject, ZodEffects } from 'zod'
 
 const requestValidationHandler =
-  (schema: AnyZodObject) =>
+  (schema: AnyZodObject | ZodEffects<AnyZodObject>) =>
   async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
       await schema.parseAsync({

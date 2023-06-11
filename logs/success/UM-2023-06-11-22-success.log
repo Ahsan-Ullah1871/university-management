@@ -1,0 +1,84 @@
+{
+  message: 'Connected',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-11T16:10:44.092Z'
+}
+{
+  message: 'Application  listening on port 5001',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-11T16:10:44.097Z'
+}
+{
+  message: 'Connected',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-11T16:11:04.671Z'
+}
+{
+  message: 'Application  listening on port 5001',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-11T16:11:04.676Z'
+}
+{
+  message: 'Connected',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-11T16:14:46.786Z'
+}
+{
+  message: 'Application  listening on port 5001',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-11T16:14:46.790Z'
+}
+{
+  message: 'Connected',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-11T16:18:00.327Z'
+}
+{
+  message: 'Application  listening on port 5001',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-11T16:18:00.332Z'
+}
+{
+  message: 'Connected',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-11T16:18:23.779Z'
+}
+{
+  message: 'Application  listening on port 5001',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-11T16:18:23.784Z'
+}
+{
+  message: 'Connected',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-11T16:18:42.826Z'
+}
+{
+  message: 'Application  listening on port 5001',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-11T16:18:42.829Z'
+}
+{
+  message: 'Connected',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-11T16:32:22.743Z'
+}
+{
+  message: 'Application  listening on port 5001',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-11T16:32:22.746Z'
+}

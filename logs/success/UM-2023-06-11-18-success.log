@@ -1,0 +1,12 @@
+{
+  message: 'Connected',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-11T12:42:21.232Z'
+}
+{
+  message: 'Application  listening on port 5001',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-11T12:42:21.243Z'
+}

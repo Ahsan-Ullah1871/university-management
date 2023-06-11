@@ -1,0 +1,7 @@
+{
+  statusCode: 409,
+  level: 'error',
+  service: 'user-service',
+  label: 'UM',
+  timestamp: '2023-06-07T19:43:56.995Z'
+}

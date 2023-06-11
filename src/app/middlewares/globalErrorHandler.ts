@@ -7,6 +7,7 @@ import ApiError from '../errors/ApiError'
 import { error_logger } from '../../shared/logger'
 import { ZodError } from 'zod'
 import HandleZodValidationError from '../errors/HandleZodValidationError'
+import { handleCastError } from '../errors/HandleCastError'
 
 const global_error_handler: ErrorRequestHandler = (error, req, res, next) => {
   config.node_env === 'production'
@@ -27,12 +28,17 @@ const global_error_handler: ErrorRequestHandler = (error, req, res, next) => {
     status_code = z_validation_error.status_code
     message = z_validation_error.message
     errorMessages = z_validation_error.errorMessages
-  } else if (error instanceof Error) {
-    message = 'Internal error'
-    errorMessages = error.message ? [{ path: '', message: error.message }] : []
+  } else if (error?.name === 'CastError') {
+    const cast_error = handleCastError(error)
+    status_code = cast_error.status_code
+    message = cast_error.message
+    errorMessages = cast_error.errorMessages
   } else if (error instanceof ApiError) {
     status_code = error.statusCode
     message = 'Connection error'
+    errorMessages = error.message ? [{ path: '', message: error.message }] : []
+  } else if (error instanceof Error) {
+    message = 'Internal error'
     errorMessages = error.message ? [{ path: '', message: error.message }] : []
   }
   res.status(status_code).json({

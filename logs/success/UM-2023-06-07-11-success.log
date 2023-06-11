@@ -1,0 +1,66 @@
+{
+  message: 'Connected',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-07T05:16:38.701Z'
+}
+{
+  message: 'Application  listening on port 5001',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-07T05:16:38.711Z'
+}
+{
+  message: 'SIGTERM recieved',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-07T05:18:18.591Z'
+}
+{
+  message: 'Connected',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-07T05:18:31.645Z'
+}
+{
+  message: 'Application  listening on port 5001',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-07T05:18:31.649Z'
+}
+{
+  message: 'SIGTERM recieved',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-07T05:40:03.841Z'
+}
+{
+  message: 'Connected',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-07T05:40:24.771Z'
+}
+{
+  message: 'Application  listening on port 5001',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-07T05:40:24.777Z'
+}
+{
+  message: 'SIGTERM recieved',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-07T05:42:38.828Z'
+}
+{
+  message: 'Connected',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-07T05:43:21.614Z'
+}
+{
+  message: 'Application  listening on port 5001',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-07T05:43:21.619Z'
+}

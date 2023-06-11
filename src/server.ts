@@ -39,9 +39,9 @@ async function main() {
 
 main()
 
-process.on('SIGTERM', () => {
-  logger.info('SIGTERM recieved')
-  if (server) {
-    server.close()
-  }
-})
+// process.on('SIGTERM', () => {
+//   logger.info('SIGTERM recieved')
+//   if (server) {
+//     server.close()
+//   }
+// })
