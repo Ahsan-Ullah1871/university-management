@@ -1,4 +1,4 @@
-import { NextFunction, Request, Response } from 'express'
+import { Request, Response } from 'express'
 import catchAsync from '../../../shared/catchAsync'
 import sendResponse from '../../../shared/sendResponse'
 import httpStatus from 'http-status'
@@ -9,7 +9,7 @@ import { academic_faculty_filter_keys } from './academicFaculty.constant'
 
 // Create new Faculty
 const createAcademicFaculty = catchAsync(
-  async (req: Request, res: Response, next: NextFunction) => {
+  async (req: Request, res: Response) => {
     //
     const { ...academic_faculty_data } = req.body
     const result = await AcademicFacultyServices.create_academic_faculty(
@@ -22,13 +22,11 @@ const createAcademicFaculty = catchAsync(
       data: result,
       message: 'Faculty created successfully',
     })
-
-    next()
   }
 )
 // Update new Faculty
 const updateAcademicFaculty = catchAsync(
-  async (req: Request, res: Response, next: NextFunction) => {
+  async (req: Request, res: Response) => {
     //
     const id = req.params.id
     const { ...academic_faculty_data } = req.body
@@ -43,8 +41,6 @@ const updateAcademicFaculty = catchAsync(
       data: result,
       message: 'Faculty updated successfully',
     })
-
-    next()
   }
 )
 
@@ -82,7 +78,7 @@ const singleAcademicFaculty = catchAsync(
       status_code: httpStatus.OK,
       success: true,
       data: result,
-      message: 'Faculty results',
+      message: 'Faculty result',
     })
   }
 )

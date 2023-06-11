@@ -1,4 +1,4 @@
-import { NextFunction, Request, Response } from 'express'
+import { Request, Response } from 'express'
 import { AcademicSemesterServices } from './academicSemester.service'
 import catchAsync from '../../../shared/catchAsync'
 import sendResponse from '../../../shared/sendResponse'
@@ -9,7 +9,7 @@ import { academic_filter_keys } from './academicSemester.constant'
 
 // Create new Semester
 const createAcademicSemester = catchAsync(
-  async (req: Request, res: Response, next: NextFunction) => {
+  async (req: Request, res: Response) => {
     //
     const { ...academic_semester_data } = req.body
     const result = await AcademicSemesterServices.create_academic_semester(
@@ -22,13 +22,11 @@ const createAcademicSemester = catchAsync(
       data: result,
       message: 'Semester created successfully',
     })
-
-    next()
   }
 )
 // Update new Semester
 const updateAcademicSemester = catchAsync(
-  async (req: Request, res: Response, next: NextFunction) => {
+  async (req: Request, res: Response) => {
     //
     const id = req.params.id
     const { ...academic_semester_data } = req.body
@@ -43,8 +41,6 @@ const updateAcademicSemester = catchAsync(
       data: result,
       message: 'Semester updated successfully',
     })
-
-    next()
   }
 )
 

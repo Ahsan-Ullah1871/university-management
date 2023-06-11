@@ -134,6 +134,16 @@
             "date": 1686510240666,
             "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/success/UM-2023-06-12-01-success.log",
             "hash": "009e8e9e7914d03124463ddb78baa1333f7c5a5cef8a926ea7258ed6fb6b682d"
+        },
+        {
+            "date": 1686514504777,
+            "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/success/UM-2023-06-12-02-success.log",
+            "hash": "9bae916f7e84d66aa1aadef8d47bdfb7ee4e69684e9ea156a8302c8d6ea81a85"
+        },
+        {
+            "date": 1686519039370,
+            "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/success/UM-2023-06-12-03-success.log",
+            "hash": "c2b3e30b2bd772dd65a592035e8f92cf6f9772f3a1b7b25f3f46fa6307dc3b8e"
         }
     ],
     "hashType": "sha256"
