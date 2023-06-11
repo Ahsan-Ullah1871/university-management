@@ -129,6 +129,11 @@
             "date": 1686506470890,
             "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-12-00-error.log",
             "hash": "f521cf0178cef25f8d51eca10eebb514b8e3277548a7df936a64e535c94761e1"
+        },
+        {
+            "date": 1686510240674,
+            "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-12-01-error.log",
+            "hash": "851f46f579667e05caec1bd9cd43f0594fc60d19c571fc8b2134f8b97e2bc3c2"
         }
     ],
     "hashType": "sha256"

@@ -1,7 +1,7 @@
-import { IAcademicSemesterSearch } from './academicSemester.interface'
+import { IAcademicFacultySearch } from './academicFaculty.interface'
 
-export const filters_academic_conditions = (
-  filers: IAcademicSemesterSearch
+export const filters_academic_faculty_conditions = (
+  filers: IAcademicFacultySearch
 ): { [key: string]: Array<Record<string, any>> } | undefined => {
   const { search_key, ...filter_keys } = filers
 
@@ -14,17 +14,6 @@ export const filters_academic_conditions = (
           title: {
             $regex: search_key,
             $options: 'i',
-          },
-        },
-        {
-          code: {
-            $regex: search_key,
-            $options: 'i',
-          },
-        },
-        {
-          $expr: {
-            $eq: [{ $toString: '$year' }, search_key],
           },
         },
       ],
