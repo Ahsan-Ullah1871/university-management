@@ -23,3 +23,17 @@ export type GenericResponse<T> = {
   meta: IMeta
   data: T
 }
+
+export type IUserRole = 'admin' | 'student' | 'faculty'
+
+export type IGender = 'male' | 'female'
+
+export type IBloodGroup =
+  | 'A+'
+  | 'A-'
+  | 'B+'
+  | 'B-'
+  | 'AB+'
+  | 'AB-'
+  | 'O+'
+  | 'O-'

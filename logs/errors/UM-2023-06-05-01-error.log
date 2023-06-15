@@ -1,7 +1,0 @@
-{
-  message: 'Unhandled error throwing',
-  level: 'error',
-  service: 'user-service',
-  label: 'UM',
-  timestamp: '2023-06-04T19:06:34.576Z'
-}
