@@ -4,14 +4,13 @@ import config from '../../config'
 import { generic_error_type } from '../../interfaces/error'
 import { handleValidationError } from '../errors/HandleValidationError'
 import ApiError from '../errors/ApiError'
-import { error_logger } from '../../shared/logger'
 import { ZodError } from 'zod'
 import HandleZodValidationError from '../errors/HandleZodValidationError'
 import { handleCastError } from '../errors/HandleCastError'
 
 const global_error_handler: ErrorRequestHandler = (error, req, res, next) => {
   config.node_env === 'production'
-    ? error_logger.error(error)
+    ? console.log(error)
     : console.log('HA HA HA ERROR', error)
 
   let status_code = 500
