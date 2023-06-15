@@ -9,6 +9,7 @@ const userSchema = new Schema<IUser>(
     role: { type: String, required: true, enum: user_roles },
     password: { type: String, required: true },
     student: { type: Schema.Types.ObjectId, ref: 'Student' },
+    faculty: { type: Schema.Types.ObjectId, ref: 'Faculty' },
   },
   { timestamps: true }
 )

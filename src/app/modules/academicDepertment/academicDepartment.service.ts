@@ -55,7 +55,7 @@ const all_academic_departments = async (
     .sort(sortObject)
     .skip(skip)
     .limit(limit)
-  const total = await AcademicDepartment.countDocuments()
+  const total = await AcademicDepartment.countDocuments(IsConditions)
 
   return {
     meta: {

@@ -96,7 +96,7 @@ const create_student = async (
 }
 
 // // Update Student
-const update_student_faculty = async (
+const update_student = async (
   student_data: Partial<IStudent>,
   id: string
 ): Promise<IStudent | null> => {
@@ -133,10 +133,6 @@ const update_student_faculty = async (
         localGuardian[key as keyof typeof localGuardian]
     })
   }
-
-  console.log('====================================')
-  console.log(updateStudentData)
-  console.log('====================================')
 
   const update_student = await Student.findOneAndUpdate(
     { id },
@@ -193,5 +189,5 @@ export const StudentServices = {
   create_student,
   all_students,
   single_student,
-  update_student_faculty,
+  update_student,
 }

@@ -10,4 +10,5 @@ export default {
   database_url: process.env.DATABASE_URL,
   default_user_password: process.env.DEFAULT_USER_PASSWORD,
   default_student_password: process.env.DEFAULT_USER_PASSWORD,
+  default_faculty_password: process.env.DEFAULT_USER_PASSWORD,
 }
