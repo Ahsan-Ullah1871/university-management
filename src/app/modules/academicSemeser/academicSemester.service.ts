@@ -90,7 +90,7 @@ const single_academic_semester = async (
   return semester
 }
 
-// Get single semester
+// Delete semester
 const delete_academic_semester = async (
   id: string
 ): Promise<IAcademicSemester | null> => {

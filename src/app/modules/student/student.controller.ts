@@ -35,7 +35,7 @@ const updateStudent = catchAsync(async (req: Request, res: Response) => {
   })
 })
 
-// Get All faculty
+// Get All students
 const allStudents = catchAsync(async (req: Request, res: Response) => {
   const filers = pick(req.query, student_filter_keys)
   const pagination = pick(req.query, pagination_keys)

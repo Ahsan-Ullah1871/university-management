@@ -11,4 +11,21 @@ export type IUser = {
   faculty?: Types.ObjectId | IFaculty
 }
 
-export type UserModel = Model<IUser, object>
+// Method practice
+// export type IUserMethods = {
+//   isUserExist(id: string): Promise<Partial<IUser> | null>
+//   isPasswordMatched(
+//     encrypted_pass: string,
+//     given_pass: string
+//   ): Promise<boolean>
+// }
+
+// export type UserModel = Model<IUser, object, IUserMethods>
+
+export type UserModel = {
+  isUserExist(id: string): Promise<IUser | null>
+  isPasswordMatched(
+    encrypted_pass: string,
+    given_pass: string
+  ): Promise<boolean>
+} & Model<IUser>

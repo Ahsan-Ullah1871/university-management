@@ -4,6 +4,8 @@ import global_error_handler from './app/middlewares/globalErrorHandler'
 import AllRoutes from './routes/Routes'
 import httpStatus from 'http-status'
 import { error_res_type } from './interfaces/common'
+import cookieParser from 'cookie-parser'
+
 const app = express()
 
 app.use(cors())
@@ -11,6 +13,7 @@ app.use(cors())
 //parser
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
+app.use(cookieParser())
 
 // Application routes
 app.use('/api/v1/', AllRoutes)

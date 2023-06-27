@@ -5,21 +5,32 @@ import {
   create_student_zod_schema,
   update_student_zod_schema,
 } from './student.validation'
+import authHandler from '../../middlewares/authHandler'
 
 const router = express.Router()
 
 router.post(
   '/create-student',
+  authHandler('admin'),
   requestValidationHandler(create_student_zod_schema),
   StudentController.createStudent
 )
 
-router.get('/', StudentController.allStudents)
+router.get(
+  '/',
+  authHandler('admin', 'faculty', 'student'),
+  StudentController.allStudents
+)
 
-router.get('/:id', StudentController.singleStudent)
+router.get(
+  '/:id',
+  authHandler('admin', 'faculty', 'student'),
+  StudentController.singleStudent
+)
 
 router.patch(
   '/:id',
+  authHandler('admin', 'faculty', 'student'),
   requestValidationHandler(update_student_zod_schema),
   StudentController.updateStudent
 )

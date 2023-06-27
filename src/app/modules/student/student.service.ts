@@ -67,10 +67,12 @@ const create_student = async (
     await session.abortTransaction()
     await session.endSession()
 
-    throw new ApiError(
-      httpStatus.REQUEST_TIMEOUT,
-      'Something is happening , try latter and  check fields'
-    )
+    throw error
+
+    // throw new ApiError(
+    //   httpStatus.REQUEST_TIMEOUT,
+    //   'Something is happening , try latter and  check fields'
+    // )
   }
 
   if (createdNewUserData) {
