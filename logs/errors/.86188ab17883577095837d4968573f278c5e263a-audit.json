@@ -1,0 +1,205 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/.86188ab17883577095837d4968573f278c5e263a-audit.json",
+  "files": [
+    {
+      "date": 1685739444538,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-03-02-error.log",
+      "hash": "b7dcecd82616ae78441b70a895e2693b0ea9ecaf8e2c10f58fc3f1141111ae09"
+    },
+    {
+      "date": 1685770124241,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-03-11-error.log",
+      "hash": "7c0687541e5e5ed2744d69690fe42347a68d6fd7147b0f675c2aad78b925e086"
+    },
+    {
+      "date": 1685772223636,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-03-12-error.log",
+      "hash": "79dd6b9359cc4ebe5a9be55e0922ecc8cfad3b4f1264aafb16b21ec5267cc7a6"
+    },
+    {
+      "date": 1685892595456,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-04-21-error.log",
+      "hash": "51a23bafea52288664912abafc01c511ff9fb507646ef960b097762f746214ce"
+    },
+    {
+      "date": 1685900388222,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-04-23-error.log",
+      "hash": "ab6a4a688b40f6c839360b1d83b13cbc141141d6ca3e31fc661fe60fc9c19678"
+    },
+    {
+      "date": 1685903080078,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-05-00-error.log",
+      "hash": "60045c1e7dfcb67348cff0f37ed2d4d0e3afe220eae4ce988e1dc09320cb681c"
+    },
+    {
+      "date": 1685905272183,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-05-01-error.log",
+      "hash": "399a948f7eefcc4c47d1fd08aafcfa9955892b8a005bdcefcc3bb9752c4f00fd"
+    },
+    {
+      "date": 1685913241017,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-05-03-error.log",
+      "hash": "361d874f820f359991f78dea6a18b4f91a626a206442ee502c9b2b11824f2e13"
+    },
+    {
+      "date": 1685994699073,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-06-01-error.log",
+      "hash": "24929b2097bd422058eb473c34eb187c0157e56d5d3b723362b00e0fcdc3dc56"
+    },
+    {
+      "date": 1685995882549,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-06-02-error.log",
+      "hash": "a02f114aec67391ae2a32b1a521fc3ad832d514da2999199c213e3d7bf6164a4"
+    },
+    {
+      "date": 1686114994075,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-07-11-error.log",
+      "hash": "dd81dd56c611a9137ab66f6d4cad21a1398776cb8ee76448345332805b6eb65c"
+    },
+    {
+      "date": 1686136073325,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-07-17-error.log",
+      "hash": "db694c0e2229bc8c1d7a4e9febd46021f5d60ddb5e24ee460c57058c110c35ec"
+    },
+    {
+      "date": 1686166102519,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-08-01-error.log",
+      "hash": "9c3a4377d5644ca5ec6222bc40c35b62ef8398114a51ea4b0f0b0d56172b4b4a"
+    },
+    {
+      "date": 1686168020590,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-08-02-error.log",
+      "hash": "5c3f9508aad7a9342432913c1553f9650ea39d3427d1239d767d556542a94db1"
+    },
+    {
+      "date": 1686336745176,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-10-00-error.log",
+      "hash": "9e8a4f7f01809616a5f4feec52c6cf8ed173160e0519f5473ca5f4912e949f97"
+    },
+    {
+      "date": 1686337223718,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-10-01-error.log",
+      "hash": "e82ccdc11f9fc393a7e13884d4058cc3186b1c24098320025e6e9e4ac4f33d9a"
+    },
+    {
+      "date": 1686469862206,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-11-13-error.log",
+      "hash": "cd36dc74a1960476177e07e826e461e12c486e8f6ee820fffb0a8d479562fd2d"
+    },
+    {
+      "date": 1686471771411,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-11-14-error.log",
+      "hash": "ec6da8e0e7b81f2cfe449ccf3b41f76c88f41dc453d559be8157d4d338600cfb"
+    },
+    {
+      "date": 1686474011372,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-11-15-error.log",
+      "hash": "e2b24e573a8532281f5d6c096b6a20a9417d6117b80fb164a6145383124175de"
+    },
+    {
+      "date": 1686487326195,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-11-18-error.log",
+      "hash": "cb50d2074aaf49f7fdabe7d1fec66895e565059ee20a2e424b96d3f619692f0a"
+    },
+    {
+      "date": 1686495270106,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-11-20-error.log",
+      "hash": "84703cee2d8b3083a53a44e7a0438c53242909d8bbf36d78f367a29e9d6c44bf"
+    },
+    {
+      "date": 1686495634987,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-11-21-error.log",
+      "hash": "222d58ef1c76ec425ca69003dae851287e31a02211a679435c56c2a8bb2b95b9"
+    },
+    {
+      "date": 1686499829492,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-11-22-error.log",
+      "hash": "26a54298b48d67a908dd7be44e2dc429c05229ceddf051a8445fdb6844e399d7"
+    },
+    {
+      "date": 1686505869992,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-11-23-error.log",
+      "hash": "24b4128151b97c36ac43de8f8f685e0d196da80016c67cd6e9d9a1dc040d1bd8"
+    },
+    {
+      "date": 1686506470890,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-12-00-error.log",
+      "hash": "f521cf0178cef25f8d51eca10eebb514b8e3277548a7df936a64e535c94761e1"
+    },
+    {
+      "date": 1686510240674,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-12-01-error.log",
+      "hash": "851f46f579667e05caec1bd9cd43f0594fc60d19c571fc8b2134f8b97e2bc3c2"
+    },
+    {
+      "date": 1686514504782,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-12-02-error.log",
+      "hash": "31e0c814388d67ca3c74e0c70a7c7a10943a29c3bd2e3e06481668a409d101c3"
+    },
+    {
+      "date": 1686519039377,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-12-03-error.log",
+      "hash": "21e5f4902336e0090a99dea644b094304d7f8636738452786b93a3a86bfc8645"
+    },
+    {
+      "date": 1686599683120,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-13-01-error.log",
+      "hash": "77543552b2c31f9487f9a10cd9353f70880cdffb3ba14ba6003877c70350e208"
+    },
+    {
+      "date": 1686631035244,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-13-10-error.log",
+      "hash": "461832aa34c315685f6329af1acd29e314033d05ecf928a5fbf77d9115dc1fba"
+    },
+    {
+      "date": 1686720384794,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-14-11-error.log",
+      "hash": "4f88f8952e4e14c3179c982b0a5fca628091b05223a4a0989aa95fa17d8a04c5"
+    },
+    {
+      "date": 1686724198521,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-14-12-error.log",
+      "hash": "302007b39ee5aeb8cb4e31dfab4790586ce1efff3a95da060584bd20906e72fb"
+    },
+    {
+      "date": 1686726494421,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-14-13-error.log",
+      "hash": "e135b93d71a3c17160bf348526bb68a74ed595af6e3332599e18fb99f2e7b899"
+    },
+    {
+      "date": 1686729701429,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-14-14-error.log",
+      "hash": "1c1a231642c2ea9f6563535c6e2f5cde721b7f5ae47859f9640a2bcbc21210e3"
+    },
+    {
+      "date": 1686778428946,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-15-03-error.log",
+      "hash": "165b0535e11f5b6ec98494bc837a8c3edb77c5b99b491c040c20c620f288027a"
+    },
+    {
+      "date": 1686780087923,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-15-04-error.log",
+      "hash": "7926106bc77b779cc86ca375dcfd24fe8966cbbe7e4cc0c6b26048d841873742"
+    },
+    {
+      "date": 1686812662576,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-15-13-error.log",
+      "hash": "f10499f059c3150fcc8d1ad33df1830c65edd1946c829f4d342bebeb96af60cc"
+    },
+    {
+      "date": 1686825232114,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-15-16-error.log",
+      "hash": "da1e52cc2bd0ea79a1e6f92538f6852fc32bf6468f2a18349457b8d46abf5191"
+    },
+    {
+      "date": 1686826937571,
+      "name": "/home/ahsan1871/NextLevelProgramming/university-management-auth-service-resources/logs/errors/UM-2023-06-15-17-error.log",
+      "hash": "43fa8e3c6c9de407b32c256dd0f6ee0be317f13f34336359e035a6be8235c395"
+    }
+  ],
+  "hashType": "sha256"
+}
