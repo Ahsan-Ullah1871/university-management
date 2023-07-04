@@ -7,6 +7,7 @@ export type IUser = {
   id: string
   role: IUserRole
   password: string
+  passwordChangedAt?: Date
   student?: Types.ObjectId | IStudent
   faculty?: Types.ObjectId | IFaculty
 }

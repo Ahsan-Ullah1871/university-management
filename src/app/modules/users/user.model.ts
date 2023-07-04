@@ -12,6 +12,7 @@ const userSchema = new Schema<IUser, UserModel>(
     id: { type: String, required: true },
     role: { type: String, required: true, enum: user_roles },
     password: { type: String, required: true, select: 0 },
+    passwordChangedAt: { type: Date },
     student: { type: Schema.Types.ObjectId, ref: 'Student' },
     faculty: { type: Schema.Types.ObjectId, ref: 'Faculty' },
   },
@@ -57,6 +58,8 @@ userSchema.pre('save', async function (next) {
     this.password,
     Number(config.bcrypt_salt_rounds)
   )
+
+  this.passwordChangedAt = new Date()
 
   next()
 })

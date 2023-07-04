@@ -28,6 +28,21 @@ const loginUser = catchAsync(async (req: Request, res: Response) => {
   })
 })
 
+// passwordChange
+const passwordChange = catchAsync(async (req: Request, res: Response) => {
+  //
+  const { ...password_data } = req.body
+  const user = req.user
+  await AuthServices.password_change(password_data, user)
+
+  sendResponse<ILoinResponse, null>(res, {
+    status_code: httpStatus.OK,
+    success: true,
+    data: null,
+    message: 'password changed successfully',
+  })
+})
+
 // refreshToken
 const refreshToken = catchAsync(async (req: Request, res: Response) => {
   //
@@ -45,4 +60,5 @@ const refreshToken = catchAsync(async (req: Request, res: Response) => {
 export const AuthController = {
   loginUser,
   refreshToken,
+  passwordChange,
 }
